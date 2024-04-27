@@ -1,5 +1,45 @@
 /**header**/
-
+.header {
+    background-color: #009a6d;
+    position: fixed;
+    width: 100%;
+}
+.contenedor{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.log img{
+    width: 20rem;
+    
+}
+/**buscador**/
+.barra{
+    position: relative;
+}
+.barra input {
+    color: #4d4d4d;
+    background-color: #fff;
+    border: 0.06rem solid #fff;
+    border-radius: 0.2rem;
+    padding-left: 1.25rem;
+    margin-left: 2rem;
+    width: 55rem;
+    height: 2.5rem;
+}
+.barra button {
+    background-color: #009a6d;
+    border: 0.06rem solid #009a6d;
+    width: 3.375rem;
+    height: 2.5rem;
+}
+/**parte izquierda header**/
+.contenedor-secundario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /**main**/
 
 /**footer**/
