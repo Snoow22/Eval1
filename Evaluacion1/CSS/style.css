@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    margin: 0;
+    
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -187,11 +187,47 @@ img {
     font-weight: 700;
     text-transform: none;
     line-height: normal;
-    font-size: 1.375rem;
+    font-size: 2rem;
     margin: 0;
 
 }
+/**Mosaico**/
+.Mosaico-img {
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+}
+.contenedor-mosaico {
+    margin-top: 1.9rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    grid-gap: 1.25rem;
+    
+}
 
+.moledores{
+    background-image: url("../IMG/grinders_3_4c2d4207-7065-44fe-ad93-073f27f1e134_888x430.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 50rem;
+    text-align: center;
+    
+}
+.moledores button {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 0.2rem;
+}
+.moledores img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nutrientes{
+    max-width: 100%;
+    height: auto;
+}
 
 
 /**footer**/
