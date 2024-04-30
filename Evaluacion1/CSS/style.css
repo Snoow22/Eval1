@@ -1,7 +1,6 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
-    
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -9,7 +8,6 @@ html {
 body{
     font-family: mi;
 }
-
 /**iconos*/
 .list{
     color: #fff;
@@ -22,9 +20,7 @@ body{
 .lupa {
     color: #fff;
     cursor: pointer;
-    top: 0;
-    
-    
+    top: 0;    
 }
 .carrito{
     color: #fff;
@@ -36,7 +32,6 @@ body{
 .maps {
     color: #046e82;
 }
-
 .truck{
     color: #046e82;
 }
@@ -49,8 +44,7 @@ body{
     top: 0;
     max-width: 100%;
     background-color: #009a6d;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 .contenedor {
     display: flex;
@@ -59,8 +53,7 @@ body{
     justify-content:space-between;
     width: 100%;
     max-width: 100%;
-    background-color: #009a6d;
-    
+    background-color: #009a6d;    
 }
 .parte-derecha  {
     display: flex;
@@ -88,8 +81,6 @@ body{
 .display{
     display: none;
 }
-
-
 /**buscador**/
 .barra{
     display: flex;
@@ -118,7 +109,6 @@ body{
     top: 0;
     right: 0; 
 }
-
 /**parte izquierda header**/
 .parte-izquierda {
     display: flex;
@@ -142,7 +132,6 @@ body{
     margin-right: 6rem;
 }
 /*Navbar*/
-
 .navbar{
     margin-top: 1rem;
     height: 100%;
@@ -154,28 +143,21 @@ body{
     padding: 0;
     margin: 0;
     background-color: #009a6d;
-    
-    
 }
 .nav-link {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    
 }
 .nav-menu-item {
     font-size: 2.5rem;
     margin: 0 2rem;
     line-height: 5rem;
-    
-    
-    
 }
 img {
     max-width: 100%;
 }
 /**main**/
-
 .banner{
     background-image: url("../IMG/banner_led_640w_1900x500.webp");
     background-position: center center;
@@ -189,14 +171,12 @@ img {
     background-position:center center ;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .contenedor-img{
     margin: 0 auto;
     padding: 1.25rem 0.625rem;
     align-items: center;
-    width: 100%;
-    
+    width: 100%;   
 }
 .inferior-banner{
     display: block;
@@ -209,7 +189,6 @@ img {
     line-height: normal;
     font-size: 2rem;
     margin: 0;
-
 }
 /**Mosaico**/
 .Mosaico-img {
@@ -224,7 +203,6 @@ img {
     margin-left: 5rem;
     margin-right: 5rem;
 }
-
 .moledores{
     background-image: url("../IMG/grinders_3_4c2d4207-7065-44fe-ad93-073f27f1e134_888x430.webp");
     background-repeat: no-repeat;
@@ -235,7 +213,6 @@ img {
     margin-bottom: 2rem;
     cursor: pointer;
 }
-
 .nutrientes{
     background-image: url("../IMG/cultivo_444x280.webp");
     background-size: cover;
@@ -272,77 +249,6 @@ img {
     cursor: pointer;
     margin-top: 0.8rem;
 }
-    
-
-/*Boton*/
-.boton {
-    background-color: #ff674b;
-    
-    /*medidas*/
-    font-size: 1.125rem;
-    width: 25rem;
-    height: 5rem;
-    padding: 0.75rem 1.125rem;
-    margin-top: 6.1rem;
-    margin-left: 3rem;
-    border: 0.06rem solid #ff674b;
-    border-radius: 0.2rem;
-    cursor: pointer;
-}
-.boton1 {
-    background-color: #ff674b;
-    
-    /*medidas*/
-    font-size: 1.125rem;
-    width: 12rem;
-    height: 5rem;
-    padding: 0.75rem 1.125rem;
-    margin-top: 6.1rem;
-    margin-left: 3rem;
-    border: 0.06rem solid #ff674b;
-    border-radius: 0.2rem;
-    cursor: pointer;
-}
-.boton2{
-    background-color: #ff674b;
-    /*Medidas*/
-    font-size: 1.125rem;
-    width: 15rem;
-    height: 5rem;
-    padding: 0.75rem 1.125rem;
-    margin-top: 6.1rem;
-    margin-left: 2rem;
-    border: 0.06rem solid #ff674b;
-    border-radius: 0.2rem;
-    cursor: pointer;
-}
-.boton3 {
-    background-color: #ff674b;
-    /*Medidas*/
-    font-size: 1.125rem;
-    width: 10rem;
-    height: 5rem;
-    padding: 0.75rem 1.125rem;
-    margin-top: 6.1rem;
-    margin-left: 2rem;
-    border: 0.06rem solid #ff674b;
-    border-radius: 0.2rem;
-    cursor: pointer;
-}
-.boton4 {
-    background-color: #ff674b;
-    /*Medidas*/
-    font-size: 1.125rem;
-    width: 18rem;
-    height: 5rem;
-    padding: 0.75rem 1.125rem;
-    margin-top: 6.1rem;
-    margin-left: 2rem;
-    border: 0.06rem solid #ff674b;
-    border-radius: 0.2rem;
-    cursor: pointer;
-    
-}
 /*Configuracion Imagenes*/
 .moledores img {
     max-width: 100%;
@@ -357,8 +263,7 @@ img {
     flex-direction: column;
     width: 100%;
 }
-.texto-mosaico {
-    
+.texto-mosaico {   
     font-size: 2rem;
     color: #fff;
 }
@@ -404,7 +309,6 @@ img {
 .text-contacto p {
     font-size: 1.125rem;
 }
-
 /*Hiervas*/
 .hierva {
     display: flex;
@@ -414,8 +318,6 @@ img {
     margin-right: 10rem;
     margin-top: 10rem;
 }
-
-
 .thc {
     display: flex;
     justify-content: space-between;
@@ -448,8 +350,7 @@ img {
     font-size: 1.5rem;
 }
 .plantas-productoras {
-    flex-basis: 60;
-    
+    flex-basis: 60;   
 }
 .autoflorecientes {
     display: flex;
@@ -471,17 +372,13 @@ img {
 .section-producto {
     position: relative;
     margin-top: 5%;
-    font-family: asap;
 }
-
 .titulo-product{
     text-align: center;
-    font-size: 3rem;
-    
+    font-size: 3rem;   
 }
 .contenedor-producto{
     position: relative;
-    
 }
 .productos {
     display: flex;
@@ -499,7 +396,6 @@ img {
     height: auto;
     margin: 0 auto;
     max-width: 100%;
-    
 }
 .Imagen-contenedor{
     max-width: 33rem;
@@ -514,7 +410,6 @@ img {
     margin: 1.25rem;
     overflow: hidden;
     transition: all 0.5s;
-    
 }
 .card:hover{
     transform: translateY(-0.9rem);
@@ -526,17 +421,14 @@ img {
     flex-direction: column;
     text-align: start;
     margin: 1rem 1rem;
-    
 }
 .contenido-card{
     display: flex;
     flex-direction: column;
-    
 }
 .texto-product {
     text-decoration: none;
     color: #4c5154;
-    
     font-size: 2rem;
 }
 .texto-product:hover{
@@ -550,7 +442,6 @@ img {
 }
 .texto-product-inferior:hover{
     color:#00AEFF;
-    
 }
 .precio-card{
     font-size: 1.4rem;
@@ -586,36 +477,91 @@ img {
     margin: 1.25rem;
     overflow: hidden;
     transition: all 0.5s;
-    
 }
 .card2:hover{
     transform: translateY(-0.9rem);
     box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
     transition: color .1s cubic-bezier(.4,0,.2,1);
 }
+/*Boton*/
+.boton {
+    background-color: #ff674b;
+    
+    /*medidas*/
+    font-size: 1.125rem;
+    width: 25rem;
+    height: 5rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 3rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.boton1 {
+    background-color: #ff674b;
+    
+    /*medidas*/
+    font-size: 1.125rem;
+    width: 12rem;
+    height: 5rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 3rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.boton2{
+    background-color: #ff674b;
+    /*Medidas*/
+    font-size: 1.125rem;
+    width: 15rem;
+    height: 5rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 2rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.boton3 {
+    background-color: #ff674b;
+    /*Medidas*/
+    font-size: 1.125rem;
+    width: 10rem;
+    height: 5rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 2rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.boton4 {
+    background-color: #ff674b;
+    /*Medidas*/
+    font-size: 1.125rem;
+    width: 18rem;
+    height: 5rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 2rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 3px;
+    cursor: pointer;
+}
 .boton-card{
     position: relative;
     background-color: #ff674b;
+    border-radius: 3px;
     border: 0.06rem solid #ff674b;
     overflow: hidden;
     height: 4rem;
     width: 20rem;
     outline: none;
-    
-
-}
-.boton-card::before{
-    transform: scale(1.79,1);
-    
-
-}
-.boton-card::after{
-    width: 7.5rem;
-    height: 7.5rem;
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transform-origin: center center;
+    cursor: pointer;
+    margin-bottom: 4rem;
 }
 .contenido-boton{
     display: block;
@@ -626,15 +572,46 @@ img {
     color: #fff;
     font-weight: bold;
     text-align: center;
-
 }
+.boton-central-mosaico{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.boton-central{
+    text-align: center;
+    background-color: #ff674b;
+    font-size: 1.125rem;
+    width: 10rem;
+    height: 6rem;
+    padding: 0.75rem 1.125rem;
+    margin-top: 6.1rem;
+    margin-left: 3rem;
+    border: 0.06rem solid #ff674b;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.boton-central:hover{
+    box-shadow: 0 0.75rem 0.9rem  rgba(255, 103, 75, 1);
+    transition: color .5s cubic-bezier(.4,0,.2,1);
+}
+.contenido-boton-central{
+    display: block;
+    opacity: 1;
+    transition: opacity 125ms cubic-bezier(.4,0,.2,1), transform 125ms cubic-bezier(.4,0,.2,1);
+    transform: scale(1);
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+/*Fin del diseño boton*/
 .micro {
     display: flex;
     flex-direction: column;
     text-align: start;
     margin: 1rem 1rem;
-    margin-bottom: 4.35rem;
-
+    margin-bottom: 4.5rem;
 }
 .card3{
     border-radius: 0.5rem;
@@ -642,7 +619,6 @@ img {
     margin: 1.25rem;
     overflow: hidden;
     transition: all 0.5s;
-    
 }
 .card3:hover{
     transform: translateY(-0.9rem);
@@ -654,7 +630,7 @@ img {
     flex-direction: column;
     text-align: start;
     margin: 1rem 1rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 .card4{
     border-radius: 0.5rem;
@@ -662,7 +638,6 @@ img {
     margin: 1.25rem;
     overflow: hidden;
     transition: all 0.5s;
-    
 }
 .card4:hover{
     transform: translateY(-0.9rem);
@@ -674,7 +649,7 @@ img {
     flex-direction: column;
     text-align: start;
     margin: 1rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.6rem;
 }
 .card5{
     border-radius: 0.5rem;
@@ -682,7 +657,6 @@ img {
     margin: 1.25rem;
     overflow: hidden;
     transition: all 0.5s;
-    
 }
 .card5:hover{
     transform: translateY(-0.9rem);
@@ -690,3 +664,120 @@ img {
     transition: color .1s cubic-bezier(.4,0,.2,1);
 }
 /**footer**/
+.footer{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 1.25rem 0;
+    background-color: #009a6d;
+    color: #888888;
+    opacity: 1.0;
+}
+.Contenido-footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;    
+    max-width: 1200px;
+    padding: 0;
+    color: #fff;
+    line-height: 2;
+}
+.Contenido-footer h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Contenido-footer p {
+    font-size: 14px;
+}
+.info-semillas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    flex-basis: 25%;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    margin-left: 2rem;
+    margin-right: 0.6rem;
+}
+.iconos-redes {
+    display: flex;
+    margin-top: -4px;
+    margin-left: -4px;
+    margin-right: -4px;
+    font-size: 0;
+    cursor: pointer;
+}
+.iconos-redes a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    outline: 0;
+}
+.iconos-redes a:visited{
+    color: #ffb477;
+}
+.red-link{
+    font-size: 2rem;
+    position: relative;
+    height: 28px;
+    width: 28px;
+    margin: 4px;
+    color: #5c5c5c;
+    vertical-align: top;
+    outline: 0;
+}
+.red-link svg {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.red-link::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #5c5c5c26;
+    transition: transform 125ms cubic-bezier(.4,0,.2,1);
+}
+.red-link:hover{
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .5s cubic-bezier(.4,0,.2,1);
+    border-radius: 50%;
+}
+.termino{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;   
+}
+.contenido-termino{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.Noticias{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
