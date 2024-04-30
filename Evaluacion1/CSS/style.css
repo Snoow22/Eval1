@@ -774,6 +774,9 @@ img {
     color: #fff;
     font-size: 1.2rem;
 }
+.contenido-termino:hover{
+    color: #4B5458;
+}
 .Noticias{
     display: flex;
     flex-direction: column;
