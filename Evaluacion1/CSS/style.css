@@ -6,6 +6,10 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+body{
+    font-family: mi;
+}
+
 /**iconos*/
 .list{
     color: #fff;
@@ -45,6 +49,7 @@ html {
     top: 0;
     max-width: 100%;
     background-color: #009a6d;
+    z-index: 1;
     
 }
 .contenedor {
@@ -55,6 +60,7 @@ html {
     width: 100%;
     max-width: 100%;
     background-color: #009a6d;
+    
 }
 .parte-derecha  {
     display: flex;
@@ -279,7 +285,7 @@ img {
     padding: 0.75rem 1.125rem;
     margin-top: 6.1rem;
     margin-left: 3rem;
-    border: 0.06rem solid ;
+    border: 0.06rem solid #ff674b;
     border-radius: 0.2rem;
     cursor: pointer;
 }
@@ -293,7 +299,7 @@ img {
     padding: 0.75rem 1.125rem;
     margin-top: 6.1rem;
     margin-left: 3rem;
-    border: 0.06rem solid ;
+    border: 0.06rem solid #ff674b;
     border-radius: 0.2rem;
     cursor: pointer;
 }
@@ -306,7 +312,7 @@ img {
     padding: 0.75rem 1.125rem;
     margin-top: 6.1rem;
     margin-left: 2rem;
-    border: 0.06rem solid ;
+    border: 0.06rem solid #ff674b;
     border-radius: 0.2rem;
     cursor: pointer;
 }
@@ -319,7 +325,7 @@ img {
     padding: 0.75rem 1.125rem;
     margin-top: 6.1rem;
     margin-left: 2rem;
-    border: 0.06rem solid ;
+    border: 0.06rem solid #ff674b;
     border-radius: 0.2rem;
     cursor: pointer;
 }
@@ -332,7 +338,7 @@ img {
     padding: 0.75rem 1.125rem;
     margin-top: 6.1rem;
     margin-left: 2rem;
-    border: 0.06rem solid ;
+    border: 0.06rem solid #ff674b;
     border-radius: 0.2rem;
     cursor: pointer;
     
@@ -462,5 +468,225 @@ img {
     flex-basis: 60;
 }
 /*Productos*/
+.section-producto {
+    position: relative;
+    margin-top: 5%;
+    font-family: asap;
+}
 
+.titulo-product{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.contenedor-producto{
+    position: relative;
+    
+}
+.productos {
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5.56rem;
+    list-style: none;
+}
+.Imagen{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.Imagen-contenedor{
+    max-width: 33rem;
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125 0.125 rgba(0, 0, 0, 0.2);
+    margin: 1.25rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.card:hover{
+    transform: translateY(-0.9rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .1s cubic-bezier(.4,0,.2,1);
+}
+.hermotico {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 1rem;
+    
+}
+.contenido-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.texto-product {
+    text-decoration: none;
+    color: #4c5154;
+    
+    font-size: 2rem;
+}
+.texto-product:hover{
+    color: #00AEFF;
+}
+.texto-product-inferior {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #B2BABB;
+    line-height: 2;
+}
+.texto-product-inferior:hover{
+    color:#00AEFF;
+    
+}
+.precio-card{
+    font-size: 1.4rem;
+    color:#949494;
+    text-decoration: line-through;
+}
+.precio-final{
+    font-size: 2rem;
+    color: #ff674b;
+    font-weight: bold;
+}
+.parte-inferior-card {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.parte-inferior-card{
+    font-size: 1.5rem;
+}
+.stars{
+    margin-right: 1rem;
+}
+.Bodega{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 1rem;
+    margin-bottom: 9.2rem;
+}
+.card2{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125 0.125 rgba(0, 0, 0, 0.2);
+    margin: 1.25rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.card2:hover{
+    transform: translateY(-0.9rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .1s cubic-bezier(.4,0,.2,1);
+}
+.boton-card{
+    position: relative;
+    background-color: #ff674b;
+    border: 0.06rem solid #ff674b;
+    overflow: hidden;
+    height: 4rem;
+    width: 20rem;
+    outline: none;
+    
+
+}
+.boton-card::before{
+    transform: scale(1.79,1);
+    
+
+}
+.boton-card::after{
+    width: 7.5rem;
+    height: 7.5rem;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transform-origin: center center;
+}
+.contenido-boton{
+    display: block;
+    opacity: 1;
+    transition: opacity 125ms cubic-bezier(.4,0,.2,1), transform 125ms cubic-bezier(.4,0,.2,1);
+    transform: scale(1);
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+
+}
+.micro {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 1rem;
+    margin-bottom: 4.35rem;
+
+}
+.card3{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125 0.125 rgba(0, 0, 0, 0.2);
+    margin: 1.25rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.card3:hover{
+    transform: translateY(-0.9rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .1s cubic-bezier(.4,0,.2,1);
+}
+.tijera-recta{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 1rem;
+    margin-bottom: 2.5rem;
+}
+.card4{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125 0.125 rgba(0, 0, 0, 0.2);
+    margin: 1.25rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.card4:hover{
+    transform: translateY(-0.9rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .1s cubic-bezier(.4,0,.2,1);
+}
+.tijera-curva{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+.card5{
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125 0.125 rgba(0, 0, 0, 0.2);
+    margin: 1.25rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.card5:hover{
+    transform: translateY(-0.9rem);
+    box-shadow: 0 0.75rem 0.9rem  rgba(0, 0, 0, 0.2);
+    transition: color .1s cubic-bezier(.4,0,.2,1);
+}
 /**footer**/
