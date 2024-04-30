@@ -118,6 +118,7 @@ html {
     display: flex;
     align-items: center;  
     flex-basis: 10%; 
+    margin-top: 1rem;
 }
 .log{
     display: flex;
@@ -398,5 +399,68 @@ img {
     font-size: 1.125rem;
 }
 
-/**/
+/*Hiervas*/
+.hierva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+}
+
+
+.thc {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.titulos-thc{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.plantas-thc{
+    flex-basis: 60%;
+}
+.productoras {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+.titulo-productoras{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.plantas-productoras {
+    flex-basis: 60;
+    
+}
+.autoflorecientes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.titulos-auto{
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.plantas-auto {
+    flex-basis: 60;
+}
+/*Productos*/
+
 /**footer**/
